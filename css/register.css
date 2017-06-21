@@ -1,0 +1,238 @@
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1210px;margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+
+ol,ul{
+	list-style-type: none;
+}
+.ct
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clear{
+	clear:both;
+}
+body{
+	min-width: 1200px;
+	max-width: 1800px;
+	margin:0 auto;
+}
+
+
+/*最上面*/
+.header{
+	width: 100%;
+	height: 100px;
+	box-shadow:0px 1px 5px;
+}
+.top{
+	width: 1000px;
+	height: 100px;
+	margin:0 auto;
+	background: white;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.top-right{
+	width: 400px;
+	height: 40px;
+	
+	float: right;
+	margin-top: 30px;
+	text-align: right;
+}
+.top-right>span{
+	line-height: 40px;
+	color: gray;
+}
+.top-right>span>a{
+	text-decoration: none;
+}
+.content{
+	width: 100%;
+	height: 650px;
+	background: url(../img/bg.jpg) center;
+}
+.main{
+	width: 1000px;
+	height: 650px;
+	margin:0 auto;
+	position: relative;
+	box-sizing: border-box;
+	padding: 20px;
+	
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background: white;
+}
+.footer-main{
+	width: 1000px;
+	height: 100px;
+	margin:0 auto;
+}
+.footer-main>p{
+	text-align: center;
+}
+.footer-main>p:last-child{
+	color: red;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 30px;
+	display: none;
+}
+#second{
+	color: red;
+	font-size: 20px;
+}
+
+
+.register{
+	width: 970px;
+	height: 560px;
+	background: white;
+	box-sizing: border-box;
+	margin-top: 20px;
+	box-shadow: 0px 1px 1px 3px #ccc;
+	overflow:hidden;
+}
+.register>form{
+	width: 500px;
+	height: 470px;
+	
+	margin:60px auto;
+	box-sizing: border-box;
+	padding: 20px 30px;
+
+}
+.register>form>label{
+	font-size: 16px;
+}
+.phone{
+	height: 42px;
+	width: 80%;
+	margin:0 auto;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+
+}
+.phone>div{
+	float: left;
+	margin-right: 13px;
+	height: 100%;	
+}
+.phone>.phone-num{
+	width: 70px;
+	line-height: 42px;
+	float: left;
+	color: gray;
+}
+.phone>.phone-input{
+	position: relative;
+}
+.phone>.phone-input>span{
+	position: absolute;
+	right: -150px;
+	top: 5px;
+	color: red;
+	display: none;
+}
+.phone>.phone-input>input{
+	height: 35px;
+	width: 230px;
+}
+.yanzhengma{
+	height: 42px;
+	width: 80%;
+	margin:0 auto;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	
+}
+.yanzhengma>div{
+	float: left;
+	margin-right: 13px;
+}
+.yanzhengma>div>input{
+	height: 35px;
+	width: 100px;
+
+}
+.yangzhengma-num{
+	width: 70px;
+	line-height: 42px;
+	float: left;
+	color: gray;
+}
+.yangzhengma-input-1{
+	width: 116px;
+
+	margin-right: 20px;
+}
+.yangzhengma-input-2-2>.huoqu{
+	height: 42px;
+}
+.checkbox{
+	width: 80%;
+	height: 30px;
+
+	margin:0 auto;
+	text-indent: 5em;
+}
+.checkbox>span{
+	color: gray;
+	font-size: 14px;
+}
+.checkbox>span>a{
+	text-decoration:none;
+}
+.submit{
+	width: 80%;
+	height: 40px;
+	background: #E10303;
+	margin:0 auto;
+
+}
+.submit>input{
+	width: 100%;
+	height: 40px;
+	background: #E10303;
+	margin:0 auto;
+	border:none;
+	font-size: 20px;
+	color: white;
+}
